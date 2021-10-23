@@ -6,7 +6,7 @@ import os # F401 'os' imported but unused
 
 ### E265 block comment should start with '# '
 print("Hello from reviewdog!")
-print("Let's play a small number guessing game to test the flake8 github action.")
+print("Let's play a small number guessing game to test the flake8 github action.") # E501 line too long (80 > 79 characters)
 print("This game is taken from https://wiki.python.org/moin/SimplePrograms.")
 
 guesses_made = 0
